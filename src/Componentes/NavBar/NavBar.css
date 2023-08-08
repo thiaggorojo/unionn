@@ -1,6 +1,6 @@
 .navbar{
-    background: #48b3bc7e;
-    height: 40px;
+   border-bottom: 1px solid rgba(8, 114, 191, 1);
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,8 +24,8 @@
 
 }
 .img-logo img{
-    width: 40px;
-    height: 30px;
+    width: 50px;
+    height: 40px;
 }
 .creditos{
     display: flex;

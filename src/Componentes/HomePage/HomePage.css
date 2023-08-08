@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(228, 219, 219, 0.532);
 }
 
 .header-1{
@@ -21,9 +21,13 @@ body{
 }
 
 .decreto{
+    display: flex;
+    justify-content: center;
     margin-top: 5px;
-    background-color: #48b3bc7e;
+    background-color: rgba(8, 114, 191, 1);
     color: #000000;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
 }
 
 
@@ -93,9 +97,11 @@ body{
 .iconos{
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     flex-wrap: wrap;
-    margin-top: 60px;
-    gap: 100px;
+    margin-top: 30px;
+    gap: 40px;
     margin-bottom: 40px;
     font-family: 'Bebas Neue', sans-serif;
     
@@ -130,24 +136,21 @@ img{
     
 }
 
-.img-1 button{
-  
-    width: 200px;
-  
-}
+
 
 button{
     text-decoration: none;
     border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    border:1px solid #0594a17e;
+    font-size: 20px;
+    border:1px solid rgba(8, 114, 191, 1);
     cursor: pointer;
     height: 30px;
+    font-family:'Bebas Neue', sans-serif; 
     
 }
 
 button:hover{
-    background-color:#0594a17e;
+    background-color:rgba(8, 114, 191, 1);
 }
 .textanimado{
     display: flex;

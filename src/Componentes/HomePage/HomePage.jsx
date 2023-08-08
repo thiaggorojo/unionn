@@ -12,19 +12,14 @@ const HomePage = () => {
     <>
     
         <header>
-         
-            <div className='header-1'>
-            <h1>Tu credito listo, siempre</h1>
-            <h2>Facil y Rapido</h2>
+        
 
-
-            
             <div className='decreto'>
             
-                <h3>Exclusivo Empleados de PAMI</h3>
+                <h3>TENEMOS LA CUOTA SOCIAL MAS BAJA DEL MERCADO</h3>
                
             </div>
-            </div>
+           
           
         </header>
     
@@ -35,6 +30,7 @@ const HomePage = () => {
         <h1></h1>
       
         <Carrusels/>
+        
 {/* 
         /* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/PAMI-Logo.svg/1200px-PAMI-Logo.svg.png" alt="" />
         
@@ -49,7 +45,7 @@ const HomePage = () => {
             </h1>
             
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil suscipit repudiandae dolores inventore explicabo similique doloribus enim iure quibusdam quisquam illum, corrupti modi, aliquam voluptate libero rerum? Error, quisquam fugiat.</p>
-           
+           <button>Pedi tu prestamo ya</button>
         </div>
 
         <div className='iconos'>
