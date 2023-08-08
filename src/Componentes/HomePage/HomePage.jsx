@@ -16,7 +16,7 @@ const HomePage = () => {
 
             <div className='decreto'>
             
-                <h3>TENEMOS LA CUOTA SOCIAL MAS BAJA DEL MERCADO</h3>
+               
                
             </div>
            
