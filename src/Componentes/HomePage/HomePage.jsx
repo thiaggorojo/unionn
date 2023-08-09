@@ -16,7 +16,7 @@ const HomePage = () => {
 
             <div className='decreto'>
             
-               
+               <span>$ La cuota mas baja del mercado $</span>
                
             </div>
            
