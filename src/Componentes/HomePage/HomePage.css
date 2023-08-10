@@ -25,8 +25,8 @@ body{
     justify-content: center;
     text-align: center;
     margin-top: 5px;
-    background-color: rgba(8, 114, 191, 1);
-    color: #000000;
+    background-image: linear-gradient(150deg,green,blue );
+    color: #ffffff;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 25px;
 }
@@ -85,6 +85,8 @@ body{
 .img2{
     display: flex;
     justify-content: center;
+    
+    align-items: center;
     flex-direction: column;
     padding: 0px;
     width: 500px;
@@ -145,6 +147,8 @@ img{
     animation: typing 2s steps(29) ,
     blink .5s  ;
     overflow: hidden;
+    color: #ffffff;
+   
 }
 
 @keyframes typing {
@@ -159,19 +163,54 @@ img{
 
 
 button{
-    text-decoration: none;
-    border-radius: 5px;
+border: 0;
+background-image: linear-gradient(150deg,green,blue );
+border-radius: 8px;
+color: #000000;
+display: flex;
+justify-content: center;
+font-size: 20px;
+padding: 4px;
+cursor: pointer;
+transition: .3s;
+font-family:'Bebas Neue', sans-serif;
+
+
+
+
+
+    /*     
+   border:1px solid rgba(8, 114, 191, 1) ;
     font-size: 20px;
-    border:1px solid rgba(8, 114, 191, 1);
+   text-align: center;
+   align-items: center;
     cursor: pointer;
     height: 30px;
-    font-family:'Bebas Neue', sans-serif; 
+    font-family:'Bebas Neue', sans-serif;  */
+  
+}
+
+button .btn{
+    background-color: #ffffff;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+    width: 500px;
+}
+button .btn:hover{
+    background: none;
+
+}
+
+button:active{
+    transform: scale(0.9);
     
 }
 
-button:hover{
+
+/* button:hover{
     background-color:rgba(8, 114, 191, 1);
-}
+} */
 .textanimado{
     display: flex;
     justify-content: center;
@@ -205,7 +244,8 @@ button:hover{
        
     }
 .img-1{
-    width: 300px;
+    width: 250px;
+    height: 300px;
 }
  .img2{
     width: 350px;
@@ -242,8 +282,8 @@ button:hover{
 }
 
 .iconos img{
-    width: 250px;
-    height: 150px;
+    width: 170px;
+    height: 100px;
   
 
 }
@@ -253,4 +293,9 @@ button:hover{
     justify-content: center;
 }
 
+}
+
+button{
+    width: 330px;
+    font-size: 15px;
 }

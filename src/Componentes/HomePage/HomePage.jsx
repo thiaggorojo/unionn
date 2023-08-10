@@ -4,7 +4,7 @@ import dolar from "../img/dolar.png"
 import tiempo from "../img/tiempo.png"
 import Carrusels from '../Carrusels/Carrusels'
 import { SiZcash } from "react-icons/si";
-
+import MovingWord from '../movingword/Movingword'
 const HomePage = () => {
  
 
@@ -16,10 +16,10 @@ const HomePage = () => {
 
             <div className='decreto'>
             
-               <span>$ La cuota mas baja del mercado $</span>
+               <MovingWord/>
                
             </div>
-           
+          
           
         </header>
     
@@ -45,7 +45,7 @@ const HomePage = () => {
             </h1>
             
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil suscipit repudiandae dolores inventore explicabo similique doloribus enim iure quibusdam quisquam illum, corrupti modi, aliquam voluptate libero rerum? Error, quisquam fugiat.</p>
-           <button>Pedi tu prestamo ya</button>
+           <button><span className='btn'>Pedi tu prestamo ya</span></button>
         </div>
 
         <div className='iconos'>
