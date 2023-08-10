@@ -195,7 +195,7 @@ button .btn{
     padding: 16px 24px;
     border-radius: 6px;
     transition: .3s;
-    width: 500px;
+    width: 600px;
 }
 button .btn:hover{
     background: none;
@@ -211,31 +211,7 @@ button:active{
 /* button:hover{
     background-color:rgba(8, 114, 191, 1);
 } */
-.textanimado{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    overflow: hidden;
-  
-    width: 500px;
-}
 
-
-.textanimado h1{
-    animation: mover-izquierda-derecha 2s  ;
-    font-family: 'Bebas Neue', sans-serif;
- 
-   
-}
-
-@keyframes  mover-izquierda-derecha{
-    from{
-        transform: translateX(-200px);
-    }
-    to{
-        transform: translateX(5px);
-    }
-}
 
 @media only screen and (max-width: 660px){
 
@@ -249,7 +225,11 @@ button:active{
 }
  .img2{
     width: 350px;
-    font-size: 15px;
+    font-size: 20px;
+ }
+
+ .img2 p{
+    font-size: 15px ;
  }
 
  button{
@@ -296,6 +276,11 @@ button:active{
 }
 
 button{
-    width: 330px;
+    width: 250px;
     font-size: 15px;
+    height: 40px;
+}
+
+button .btn{
+     padding: 6px 0px; ;
 }
