@@ -30,10 +30,7 @@ import logoda from "../img/logoda.png"*/
                     <div className="img-logo">
                     <img src={union} alt="" />
                     </div>
-                    <div className="creditos">
-
-                    <h1></h1>
-                    </div>
+                    
 
 
                     <div className={`nav_items ${isOpen && "open"}`}>

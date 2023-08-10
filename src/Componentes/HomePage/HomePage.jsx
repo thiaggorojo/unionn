@@ -5,6 +5,10 @@ import tiempo from "../img/tiempo.png"
 import Carrusels from '../Carrusels/Carrusels'
 import { SiZcash } from "react-icons/si";
 import MovingWord from '../movingword/Movingword'
+import USUARIO from "../img/USUARIO.png"
+import pi from "../img/pi.png"
+
+
 const HomePage = () => {
  
 
@@ -22,7 +26,7 @@ const HomePage = () => {
           
           
         </header>
-    
+  
     <div className='container-general'>
         
           
@@ -58,8 +62,8 @@ const HomePage = () => {
         <img src={tiempo} alt="" />
        </div>
        <div className='banco'>
-        <h3>Consulta por tu banco</h3>
-        <img src={dolar} alt="" />
+        <h3>Empleados de PAMI</h3>
+        <img src={pi} alt="" />
        </div>
       
 
